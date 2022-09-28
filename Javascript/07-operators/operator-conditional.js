@@ -1,27 +1,27 @@
 let age = 15;
 
-let status = age >= 18 ? adult() : minor();
+let status = (age >= 18) ? adult() : minor();
 
 console.log(status);
 
 function adult() {
-  return "Puedes pasar a mi bar";
+  return 'Puedes pasar a mi bar';
 }
 
 function minor() {
-  return "Vete a jugar al parque";
+  return 'Vete a jugar al parque';
 }
+
 
 if (age >= 18) {
-  return "adult";
+  return 'adult'
 } else {
-  return "minor";
+  return 'minor'
 }
 
+
+
 function findGreaterOrEqual(a, b) {
-  return a === b
-    ? "a and b are equal"
-    : a > b
-    ? "a is greater"
-    : "b is greater";
+  return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
 }
+
