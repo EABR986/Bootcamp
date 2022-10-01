@@ -13,10 +13,10 @@ function sumNumbers(param) {
   for (let index = 0; index < param.length; index++) {
     sumNum= param[index] 
     sumTotal= sumTotal+sumNum
-    console.log(sumTotal);
+    ;
  
 
-  }
+  }console.log(sumTotal)
 }
 sumNumbers(numbers)
 

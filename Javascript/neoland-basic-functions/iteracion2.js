@@ -7,9 +7,10 @@ Puedes usar este array para probar tu función:*/
 const avengers = [
   "Hulk",
   "Thor",
-  "IronMan",
+  "IronMan", 
   "Captain A.",
-  "Spiderman",
+ "Spiderman",
+  //"Pepe el chocolatero",
   "Captain M.",
 ]; let lengthWord = " ";
 function findLongestWord(param) {
