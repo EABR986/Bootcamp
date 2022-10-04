@@ -1,4 +1,5 @@
-// Iteración #2: Mix Fors
+
+// Iteración #3: Mix Fors
 const users = [
     {name: 'Manolo el del bombo',
         favoritesSounds: {
@@ -30,17 +31,23 @@ const users = [
     },
 ]
 
-let allVolumes = []
+let allUsersFavoriteSounds = []
 
 for (let user of users) {
-    const {favoritesSounds} = user
-    const favoriteSoundsArray = Object.entries(favoritesSounds)
-    for(let favoriteSound of favoriteSoundsArray ) {
-         allVolumes.push(favoriteSound[1].volume)
+    allUsersFavoriteSounds.push(Object.keys(user.favoritesSounds))
+}
+
+allUsersFavoriteSounds = allUsersFavoriteSounds.flat()
+let usersFavoriteSoundsCounter = {}
+
+for (let sounds of allUsersFavoriteSounds) {
+    usersFavoriteSoundsCounter[sounds] = 0
+}
+
+for (let i in allUsersFavoriteSounds) {
+    if(allUsersFavoriteSounds[i] in usersFavoriteSoundsCounter) {
+        usersFavoriteSoundsCounter[allUsersFavoriteSounds[i]] += 1
     }
 }
 
-const volumesAverage = allVolumes.reduce((prev,curr) => prev + curr, 0)
-                       / allVolumes.length
-console.log(volumesAverage)
-
+console.log(usersFavoriteSoundsCounter)
