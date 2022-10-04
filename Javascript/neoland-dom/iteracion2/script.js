@@ -11,12 +11,12 @@
 // // 2.6 Basandote en el siguiente array crea una lista ul > li con los textos del array.
 // // const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
 
-// 2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
+// // 2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
 
 // 2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div. 
 // 	Recuerda que no solo puedes insertar elementos con .appendChild.
 
-// 2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here
+// // 2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here
 
 
 const newDiv = document.createElement("div");
@@ -45,7 +45,6 @@ document.body.appendChild(newParr2)
 //////////////////////////////////////////////////////////////////
 const newH2 = document.querySelector(".fn-insert-here");
 const textH2 = document.createTextNode('wubba Lubba dub dub');
-console.log(newH2)
 newH2.appendChild(textH2);
 ///////////////////////////////////////////////////////////////////////////7
 const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter']
@@ -60,16 +59,24 @@ appList.appendChild(li);
 document.body.appendChild(appList);
 }
 //////////////////////////////////////////////////////////7
-// const deleteWord= document.querySelectorAll(".fn-remove-me");
-// console.log(deleteWord)
-// deleteWord.remove();
+const nodesToRemove = document.querySelectorAll(".fn-remove-me");
+
+for (const node of nodesToRemove) {
+ node.remove();}
 //////////////////////////////////////////////////////////
-const allQueryDivs = document.querySelectorAll("div");
-const changeDivs = document.querySelectorAll('.fn-insert-here')
-console.log(allQueryDivs)
-console.log(changeDivs)
-console.log(allQueryDivs.classList.contains("fn-insert-here"))
-// for (const queryDiv in allQueryDivs){
-//      if (queryDiv.classList.contains("fn-insert-here"))
-    
-// }
+// const middleDiv = document.querySelector('.middle')
+// const middleParraf = document.createElement('p')
+// middleParraf.textContent = 'Voy en medio!'
+// middleDiv.insertAdjacentElement('afterend', middleParraf)
+
+
+///////////////////////////////
+const allDivs = document.querySelectorAll("div");
+
+for (const div of allDivs) {
+  if (div.classList.contains("fn-insert-here")) {
+    div.innerHTML = `
+    <p>Voy dentro!</p>
+    `;
+  }
+}
