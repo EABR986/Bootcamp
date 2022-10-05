@@ -18,13 +18,14 @@ const allParragraph = document.querySelectorAll("p");
 const allPokemon = document.querySelectorAll(".pokemon");
 const allDataFunction= document.querySelectorAll("[data-function]");
 
+
 console.log (queryPillado);
 console.log(queryShowme);
 console.log(allParragraph);
 console.log(allPokemon);
 console.log(allDataFunction);
 console.log(allDataFunction[2]);
-console.log("holaaa!!")
+
 
 
 
