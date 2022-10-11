@@ -1,0 +1,124 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Marvel's The Avengers",
+        "date": "May 4, 2012",
+        "director":"Joss Whedon" ,
+        "poster": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665414993/avengers/the_avengers-p613897_vsjzsr.jpg",
+        "description": "When the Tesseract, a cube of pure energy with the power to destroy the Earth, is stolen by the nefarious God of Mischief, Loki, S.H.I.E.L.D. leader Nick Fury embarks on a daring recruitment effort spanning the globe to assemble a team of the world’s most powerful superheroes to get it back. Captain America, Iron Man, Thor, Black Widow, Hawkeye and The Hulk are brought together to stop Loki. But unfortunately, it’ll take more than just assembling them to save the world from the brink of destruction.",
+        "phase": "One"
+      },
+      {
+        "id": 2,
+        "title": "Avengers: Age of Ultron",
+        "date": "May 1, 2015",
+        "director":"Joss Whedon" ,
+        "poster": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665414994/avengers/avengers_age_of_ultron-p962957_ulhdax.jpg",
+        "description": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry. Earth’s Mightiest Heroes are put to the ultimate test when the villainous Ultron emerges. It’s up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+        "phase": "Two"
+      },
+      {
+        "id": 3,
+        "title": "Avengers: Infinity War",
+        "date": "April 27, 2018",
+        "director":"Anthony and Joe Russo" ,
+        "poster": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665414994/avengers/avengers_infinity_war-p1102198_vj13pj.jpg",
+        "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment – the fate of Earth and existence itself has never been more uncertain.",
+        "phase": "Three"
+      },
+      {
+        "id": 4,
+        "title": "Avengers: Endgame",
+        "date": "April 26, 2019",
+        "director":"Anthony and Joe Russo" ,
+        "poster": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665414994/avengers/avengers_endgame-p1079946_j9fmee.jpg",
+        "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers — Thor, Black Widow, Captain America and Bruce Banner — must figure out a way to bring back their vanquished allies for an epic showdown with Thanos — the evil demigod who decimated the planet and the universe.",
+        "phase": "Three"
+      },
+      {
+        "id": 5,
+        "title": "Captain America: Civil War",
+        "date": "May 6, 2016",
+        "director":"Anthony and Joe Russo" ,
+        "poster": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665414994/avengers/captain_america_civil_war-p1093068_ed9d9z.jpg",
+        "description": "Captain America and Falcon continue their search for Bucky Barnes while going head to head with a new foe, Crossbones.",
+        "phase": "Three"
+      }
+     
+      
+    ],
+    "characters": [
+      {
+        "id": 1,
+        "alias": "IRON MAN",
+        "real-name": "Tony Stark",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415790/avengers/tony-stark-como-iron-man_3840x2160_xtrafondos.com_nbkemd.jpg",
+        "description": "Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger."
+    },
+      {
+        "id": 2,
+        "alias": "HULK",
+        "real-name": "Bruce Banner",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415790/avengers/1004417_hogx5z.jpg",
+        "description": "Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk."
+      },
+      {
+        "id": 3,
+        "alias": "THOR",
+        "real-name": "Thor Odinson",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/674048_ujfupw.jpg",
+        "description": "Thor Odinson wields the power of the ancient Asgardians to fight evil throughout the Nine Realms and beyond."
+      },
+      {
+        "id": 4,
+        "alias": "BLACK WIDOW",
+        "real-name": "Natasha Romanoff",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/wp766281-winter-soldier-wallpapers_dqyuco.jpg",
+        "description": "A deadly assassin is closing in on Natasha Romanoff. Now Natasha must reunite with an unlikely group of spies from her past in order to survive and stop a lethal force from being unleashed on the world."
+      },
+      {
+        "id": 5,
+        "name": "BLACK PANTHER",
+        "real-name": "King T’Challa ",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/wp1869876-black-panther-marvel-wallpapers_oob45z.jpg",
+        "description": "As the king of the African nation of Wakanda, T’Challa protects his people as the latest in a legacy line of Black Panther warriors."
+
+    },
+      {
+        "id": 6,
+        "name": "HAWKEYE",
+        "real-name": "Clint Barton ",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415863/avengers/wp7181259-hawkai-wallpapers_iye5xu.jpg"
+    },
+      {
+        "id": 7,
+        "name": "SPIDER MAN",
+        "quote": "Peter Parker",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415790/avengers/wp10531624-spider-man-2-2004-wallpapers_lql94s.jpg",
+        "description": "With amazing spider-like abilities, teenage science whiz Peter Parker fights crime and dreams of becoming an Avenger as Spider-Man."
+    },
+      {
+        "id": 8,
+        "name": "SPIDER MAN",
+        "quote": "Miles Morales",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/uwp1949847_fhveae.jpg",
+        "description": "In the alternate reality of Earth-1610, a young New York City teen was bitten by a genetically enhanced spider. When the Peter Parker of that dimension was killed, the teen—named Miles Morales—was inspired to take up the fallen mantle."
+    },
+    {
+        "id": 9,
+        "name": "CAPTAIN AMERICA",
+        "quote": "Steve Rogers",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/uwp1882007_z3tkly.jpg",
+        "description": "America’s World War II Super-Soldier continues his fight in the present as an Avenger and untiring sentinel of liberty."
+    },
+    {
+        "id": 10,
+        "name": "CAPTAIN MARVEL",
+        "quote": "Carol Danvers",
+        "image": "https://res.cloudinary.com/dvedrbvnw/image/upload/v1665415789/avengers/uwp483991_slactv.jpg",
+        "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    }
+    ]
+  }
+  

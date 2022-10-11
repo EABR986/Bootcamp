@@ -1,0 +1,14 @@
+{
+  "name": "avengers-web-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " json-server data.json"
+  },
+  "author": " Eduardo Blanco Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

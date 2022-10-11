@@ -21,7 +21,8 @@ const tranformData = () => {
       name: character.name,
       status: character.status,
       specie: character.specie,
-      image: character.image
+      image: character.image,
+      gender: character.gender
     }
   })
   setupCharacters();
@@ -33,9 +34,9 @@ const setupCharacters = () => {
   console.log('Pintado', charactersTransform)
   charactersTransform.forEach((element) => {
     const liElement = `<li> 
-    <h1>${element.name}</h1>
+    <h1>${element.name}  || ${element.gender}</h1>
       <img src=${element.image} alt=${element.name}>
-      <p>${element.species} || ${element.status}</p>
+      <p>Species: ${element.species} || ${element.status}</p>
     </li>`
     listToInsertData.innerHTML += liElement;
   });
