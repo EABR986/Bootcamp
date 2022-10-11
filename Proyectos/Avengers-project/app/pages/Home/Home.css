@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Avengeance Heroic Avenger ;
+  src: url('../../public/fonts/AvengeanceHeroicAvengerBold-MM2J.ttf') format('ttf');
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  font-family: Avengeance Heroic Avenger;
+}
+.home > img {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 45px
+}
+.parr-container{
+  width: 90vw;
+  display: flex;
+  padding-top: 45px
+}
+body{
+  background-image: url("https://res.cloudinary.com/dvedrbvnw/image/upload/v1665487266/avengers/wallpaperbetter.com_1366x768_hrc4of.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.gif-container{
+  align-content: flex-end;
+ 
+  padding-top: 54px;
+  padding-bottom: 54px
+}
+.gif{
+  border-radius: 36%;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 45px;
+}
+
+p{
+  color:rgb(219, 239, 233);
+}
+section p{
+   font-size: 30px;
+}

@@ -1,0 +1,27 @@
+nav {
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav > ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+nav > ul > li > a {
+    transition: all 0.3s ease-in-out;
+    color: antiquewhite;
+}
+
+nav > ul > li > a:hover{
+    color: rgb(25, 28, 28);
+}
+
+nav{
+    background-color: rgba(250, 246, 241, 0.084);
+
+}
