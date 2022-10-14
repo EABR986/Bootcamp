@@ -22,31 +22,11 @@ li {
   --codec-background: #000000;
 }
 
-@font-face {
-  font-family: "Metal";
-  src: url("/fonts/METAG___.TTF");
-  font-display: block;
-}
-
-@font-face {
-  font-family: "Metal2";
-  src: url("/fonts/MGS2.ttf");
-  font-display: block;
-}
-
 .light {
   background-color: var(--primary);
   color: var(--background);
 }
 
-h1,
-h2,
-h3,
-a {
-  font-family: "Metal2", sans-serif;
-  color: var(--secondary);
-  letter-spacing: 0.4rem;
-}
 
 button{
   all:unset;

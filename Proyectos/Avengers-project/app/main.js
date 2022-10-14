@@ -2,7 +2,7 @@ import "./style.css";
 import { Nav } from "./components/Nav/Nav";
 import { Footer } from "./components/Footer/Footer";
 import { Home } from "./pages/Home/Home";
-import { Movies } from "./pages/Movies/movies";
+import { Movies} from "./pages/Movies/movies";
 // import { Characters } from "./pages/Characters/Characters";
 // import { changeTheme } from "./components/Nav/Nav";
 import { linkPage } from "./utils/linkPage";
@@ -19,9 +19,12 @@ const logolink=()=>{
     // logo.addEventListener("onclick", href="https://www.marvel.com/" )
 }
 // logolink()
+
 Home();
 linkPage("#homelink", Home)
 linkPage("#movieslink", Movies);
-// linkPage("#characterslink", Characters)
+linkPage("#characterslink", Characters)
 
+
+ 
 // changeTheme()

@@ -20,7 +20,9 @@ import "./Nav.css";
 
 export const Nav = () => `
 <nav>
-    <img class= "avengers-mini" src="https://res.cloudinary.com/dvedrbvnw/image/upload/v1665489356/avengers/5842a4f5a6515b1e0ad75af6_p46j5y.png"/>
+    <a href="https://www.marvel.com/" alt="marvel home page">
+        <img class= "avengers-mini" src="https://res.cloudinary.com/dvedrbvnw/image/upload/v1665489356/avengers/5842a4f5a6515b1e0ad75af6_p46j5y.png" ) />
+    </a>
     <ul>
         <li>
             <a href="#" id="homelink">Home</a>

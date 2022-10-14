@@ -78,7 +78,7 @@ for (const randomElement of randomElements) {
     <div>
         <li>
         <h2>${randomElement.title} </h2>
-        <img imgUrl=${randomElement.title }>
+        <img imgUrl="${randomElement.imgUrl }">
         </li>
     </div>
     `;

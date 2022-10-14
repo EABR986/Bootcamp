@@ -4,6 +4,7 @@ import { cleanPage } from "../../utils/cleanPage";
 export const Home = () => {
   const app = document.querySelector("#app");
   cleanPage(app);
+  cleanPage(select);
   app.innerHTML = `
   <section class="home">
     <img class= "avengers-logo" src="https://res.cloudinary.com/dvedrbvnw/image/upload/v1665485034/avengers/Avengers-Logo-PNG-High-Quality-Image_wpkmvk.png" alt="avengers logo" />
