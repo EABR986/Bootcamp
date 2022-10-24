@@ -3,7 +3,7 @@ import "./Moviescards.css";
 export const filter = 
     `
     
-        <label for="phaseSelect" class="label"> Filter by Phase: </label></label>
+        <label for="phaseSelect" class="label"> You can filter by: </label></label>
         <select name="movie-Select" id="phaseSelect" >
             <option value="">-- Search by Phase --</option>
             <option value="One">One</option>
@@ -18,8 +18,9 @@ export const filter =
 
 export const MovieCard = (item) => ` 
 
-	<div class="img-container">
-		<div class="img-container__text">
+	<div class="contenedor">
+        <img class="img-container" src = ${item.poster} alt="avengers poster" />
+        <div class="text-container">
 			<p class="img-container__title">
             ${item.title}
 			</p>
@@ -27,7 +28,7 @@ export const MovieCard = (item) => `
             ${item.description} - ${item.date}
 			</p>
 		</div>
-		<img class="img-container__img" src = ${item.poster} alt="avengers poster" />
+		
 	</div>
 `;
 

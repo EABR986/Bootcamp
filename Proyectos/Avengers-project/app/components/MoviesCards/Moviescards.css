@@ -1,56 +1,29 @@
-@mixin bn {
-    filter: grayscale(100%);
-  }
-  
-  .posts-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: stretch;
-      align-content: flex-start;
-  }
-  
-  .img-container {
-      flex-grow: 1;
-      flex-start: 30%;
-    cursor: pointer;
-    width: auto;
-      max-height: 180px;
-    height: 300px;
-    position: relative;
-      margin-right: 5%;
-      width: 30%;
-      overflow: hidden;
-      }
-  
-  
-  .img-container__text {
-    background: rgba(0, 0, 0, .5);
-    color: #FFF;
-      position: absolute;
-      width: 100%;
-    top: 25%;
-    padding: 5% 0;
-    text-align: center;
-    z-index: 9;
-  }
-  
-  .img-container__title {
-      color: inherit;
-    text-transform: uppercase;
-  
-  }
-  
-  .img-container__excerpt {
-      color: #C5C5C5;
-  }
-  
-  .img-container__img {
-    max-width: 100%;
-    transition: all .5s ease;
-      @include bn;
-  }
-  .label {
-    color: aliceblue;
-  }
-  
+@font-face {
+  font-family: Avengeance Heroic Avenger ;
+  src: url('../../public/fonts/AvengeanceHeroicAvengerBold-MM2J.ttf') format('ttf');
+}
+
+.movie-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap:40px;
+  padding: 40px;
+  justify-content: center;
+}
+.img-container{
+  width: 230px;
+  height: 345px;
+  border-radius: 6px;
+}
+.filter{
+  padding: 40px;
+  justify-content: center;
+  font-family: Avengeance Heroic Avenger;
+  color: azure;
+  font-size: 1rem;
+}
+.select-movies{
+  justify-content: space-evenly;
+    gap: 30px;
+    display: grid;
+}

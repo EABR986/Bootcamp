@@ -2,10 +2,13 @@ import "./Home.css";
 import { cleanPage } from "../../utils/cleanPage";
 
 export const Home = () => {
-  const app = document.querySelector("#app");
+  const home = document.querySelector("#home");
+  const app = document.querySelector("#app")
+  cleanPage(home)
   cleanPage(app);
+
   cleanPage(select);
-  app.innerHTML = `
+  home.innerHTML = `
   <section class="home">
     <img class= "avengers-logo" src="https://res.cloudinary.com/dvedrbvnw/image/upload/v1665485034/avengers/Avengers-Logo-PNG-High-Quality-Image_wpkmvk.png" alt="avengers logo" />
     <div class="parr-container">

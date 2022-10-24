@@ -1,6 +1,7 @@
 import { filter, MovieCard } from "../../components/MoviesCards/MoviesCards";
 import { getData } from "../../services/services";
 import { cleanPage } from "../../utils/cleanPage";
+import { Home } from "../Home/Home";
 
 const getMovies = async () => {
   const Movies = await getData("movies");
@@ -14,8 +15,10 @@ const printMovies = (list) => {
   const selectElement = document.querySelector('#phaseSelect');
  
   const app = document.querySelector("#app");
+  const home = document.querySelector("#home");
 
   cleanPage(app);
+  cleanPage(home)
 
   for (const item of list) {
           app.innerHTML += MovieCard(item);
@@ -23,6 +26,7 @@ const printMovies = (list) => {
 
  selectElement.addEventListener('change', (event) =>{
     cleanPage(app); 
+    cleanPage(home);
      
   for (const item of list) {
  
@@ -52,5 +56,3 @@ const filterOfMovies=()=>{
   cleanPage(select)
   select.appendChild(section)
   }
-
-
